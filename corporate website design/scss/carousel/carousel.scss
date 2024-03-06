@@ -1,0 +1,17 @@
+.carousel-section {
+   padding: 60px 0 80px 0;
+
+   .carousel-indicators {
+    bottom: 0px;
+    transform: translatey(50px);
+   }
+
+   .carousel-indicator-item  {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: aquamarine;
+   }
+
+}

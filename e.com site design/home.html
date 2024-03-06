@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>E.Com Site Design</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light">
+        <div class="container"> 
+          <div>
+            <ul class="navbar-nav flex-row gap-3 align-items-center">
+              <li class="nav-item nav-link custom-dropdown">
+                <span class="english">English</span>
+                <span><i class="fa-solid fa-sort-down"></i></span>
+                  <ul class="navbar-nav">
+                    <li class="nav-item">English</li>
+                    <li class="nav-item">French</li>
+                    <li class="nav-item">Germany</li>
+                  </ul>
+              </li>
+              <li class="bar"></li>
+              <li class="nav-item nav-link custom-dropdown">
+                USD
+                <span><i class="fa-solid fa-sort-down"></i></span>
+                <ul class="navbar-nav">
+                  <li class="nav-item">USD</li>
+                  <li class="nav-item">EUR</li>
+                  <li class="nav-item">GBP</li>
+                </ul>
+              </li>
+              <li class="bar"></li>
+              <li class="nav-item nav-link">Call Us 3465</li>
+            </ul>
+          </div>
+          <div>
+            <a href="#">
+              <img src="assets/flone.png" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div>
+            <ul class="navbar-nav flex-row gap-4">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span class="nav-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span class="nav-icon"><i class="fa-solid fa-circle-user"></i></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span class="nav-icon"><i class="fa-solid fa-shuffle"></i></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span class="nav-icon"><i class="fa-regular fa-heart"></i></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span class="nav-icon"><i class="fa-solid fa-bag-shopping"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <!-- secondary navbar -->
+    <div class="container">
+       <div class="row">
+        <div class="col-md-12">
+          <div class="secondary-nav-items">
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">Collection</a>
+            <a href="">Pages</a>
+            <a href="">Blog</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+       </div>
+    </div>
+
+    <!-- carousel section -->
+    <div class="container">
+      <div id="main-carousel" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-content">
+              <div class="carousel-text">
+                <h3>-20% off All Items</h3>
+                <h1>Green Up <br> Your Room</h1>
+                <div><a href="" class="btn">SHOP NOW</a></div>
+              </div>
+              <div class="carousel-img">
+                <img src="assets/tree.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="carousel-text">
+                <h3>-20% off All Items</h3>
+                <h1>Level Up <br> Your Room</h1>
+                <div><a href="" class="btn">SHOP NOW</a></div>
+              </div>
+              <div class="carousel-img">
+                <img src="assets/tree5.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="carousel-text">
+                <h3>-20% off All Items</h3>
+                <h1>Green Up <br> Your Room</h1>
+                <div><a href="" class="btn">SHOP NOW</a></div>
+              </div>
+              <div class="carousel-img">
+                <img src="assets/tree.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" style="color: black;" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- featured cards section -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="single-banner">
+            <a href="">
+              <img src="assets/tree2.png" alt="" class="img-fluid">
+            </a>
+            <div class="banner-content">
+              <h3>Peepal</h3>
+              <h4>Starting At <span>$99.00</span></h4>
+              <a href=""><i class="fa-solid fa-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-banner">
+            <a href="">
+              <img src="assets/tree3.png" alt="" class="img-fluid">
+            </a>
+            <div class="banner-content">
+              <h3>Banyan</h3>
+              <h4>Starting At <span>$99.00</span></h4>
+              <a href=""><i class="fa-solid fa-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-banner">
+            <a href="">
+              <img src="assets/tree4.png" alt="" class="img-fluid">
+            </a>
+            <div class="banner-content">
+              <h3>Aloe Vera</h3>
+              <h4>Starting At <span>$99.00</span></h4>
+              <a href=""><i class="fa-solid fa-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product section -->
+    <div class="container">
+      <div class="tab-content">
+        <div class="fade tab-pane active show" role="tabpanel" aria-hidden="false">
+          <div class="row py-5">
+            <div class="col-md-12">
+             <div class="product-header text-center">
+              <h2>DAILY DEALS!</h2>
+              <h5>Home Plants</h5>
+              <div class="hr-flex">
+                <div class="hr-line"></div>
+              </div>
+             </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-wrap">
+                <div class="product-img">
+                  <a href="">
+                    <img class="default-img" src="assets/tree6.jpg" alt="">
+                    <img class="hover-img" src="assets/tree7.jpg" alt="">
+                  </a>
+                  <div class="badges">
+                    <span class="pink">-10%</span>
+                    <span class="purple">New</span>
+                  </div>
+                  <div class="action">
+                    <div class="pro-same-action pro-wishlist">
+                      <button><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="pro-same-action pro-cart">
+                      <button><i class="fa-solid fa-cart-shopping me-1"></i>Add to Cart</button>
+                    </div>
+                    <div class="pro-same-action pro-quick-view">
+                      <span title="Quick View"><button><i class="fa-regular fa-eye"></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-content text-center">
+                  <a href="">
+                    <h3>Lorem ipsum dolor sit</h3>
+                  </a>
+                  <div class="rating">
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star gray"></i>
+                  </div>
+                  <div class="price">
+                    <span class="me-1">$9.54</span><strong>-</strong>
+                    <span class="old">$10.5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-wrap">
+                <div class="product-img">
+                  <a href="">
+                    <img class="default-img" src="assets/tree7.jpg" alt="">
+                    <img class="hover-img" src="assets/tree8.jpg" alt="">
+                  </a>
+                  <div class="badges">
+                    <span class="pink">-10%</span>
+                    <span class="purple">New</span>
+                  </div>
+                  <div class="action">
+                    <div class="pro-same-action pro-wishlist">
+                      <button><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="pro-same-action pro-cart">
+                      <button><i class="fa-solid fa-cart-shopping me-1"></i>Add to Cart</button>
+                    </div>
+                    <div class="pro-same-action pro-quick-view">
+                      <span title="Quick View"><button><i class="fa-regular fa-eye"></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-content text-center">
+                  <a href="">
+                    <h3>Lorem ipsum dolor sit</h3>
+                  </a>
+                  <div class="rating">
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star gray"></i>
+                  </div>
+                  <div class="price">
+                    <span class="me-1">$9.54</span><strong>-</strong>
+                    <span class="old">$10.5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-wrap">
+                <div class="product-img">
+                  <a href="">
+                    <img class="default-img" src="assets/tree9.jpg" alt="">
+                    <img class="hover-img" src="assets/tree6.jpg" alt="">
+                  </a>
+                  <div class="badges">
+                    <span class="pink">-10%</span>
+                    <span class="purple">New</span>
+                  </div>
+                  <div class="action">
+                    <div class="pro-same-action pro-wishlist">
+                      <button><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="pro-same-action pro-cart">
+                      <button><i class="fa-solid fa-cart-shopping me-1"></i>Add to Cart</button>
+                    </div>
+                    <div class="pro-same-action pro-quick-view">
+                      <span title="Quick View"><button><i class="fa-regular fa-eye"></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-content text-center">
+                  <a href="">
+                    <h3>Lorem ipsum dolor sit</h3>
+                  </a>
+                  <div class="rating">
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star gray"></i>
+                  </div>
+                  <div class="price">
+                    <span class="me-1">$9.54</span><strong>-</strong>
+                    <span class="old">$10.5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-wrap">
+                <div class="product-img">
+                  <a href="">
+                    <img class="default-img" src="assets/tree10.jpg" alt="">
+                    <img class="hover-img" src="assets/tree9.jpg" alt="">
+                  </a>
+                  <div class="badges">
+                    <span class="pink">-10%</span>
+                    <span class="purple">New</span>
+                  </div>
+                  <div class="action">
+                    <div class="pro-same-action pro-wishlist">
+                      <button><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="pro-same-action pro-cart">
+                      <button><i class="fa-solid fa-cart-shopping me-1"></i>Add to Cart</button>
+                    </div>
+                    <div class="pro-same-action pro-quick-view">
+                      <span title="Quick View"><button><i class="fa-regular fa-eye"></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-content text-center">
+                  <a href="">
+                    <h3>Lorem ipsum dolor sit</h3>
+                  </a>
+                  <div class="rating">
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star yellow"></i>
+                    <i class="fa-regular fa-star gray"></i>
+                  </div>
+                  <div class="price">
+                    <span class="me-1">$9.54</span><strong>-</strong>
+                    <span class="old">$10.5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- support section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+         <div class="support-content text-center">
+          <img class="animated" src="assets/car.png" alt="">
+          <h5>Free Shipping</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, id!</p>
+         </div>
+        </div>
+        <div class="col-md-4">
+          <div class="support-content text-center">
+           <img class="animated" src="assets/circle.png" alt="">
+           <h5>Support24/7</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, id!</p>
+          </div>
+         </div>
+         <div class="col-md-4">
+          <div class="support-content text-center">
+           <img class="animated" src="assets/dolor.png" alt="">
+           <h5>Money Return</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, id!</p>
+          </div>
+         </div>
+      </div>
+    </div>
+
+    <!-- subscribe section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="subscribe-wrapper text-center">
+            <h1>Subscribe</h1>
+            <p>Subscribe to our newsletter to receive news on update</p>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <div class="form">
+              <div><input type="email" placeholder="Your email address"></div>
+              <div class="submit"><button class="button"><i class="fa-solid fa-arrow-right-long"></i></button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+      <footer class="footer-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="footer-items col1">
+               <a href=""><img src="assets/flone.png" alt=""></a>
+               <p>&copy; 2023 Flone. <br> All Right Reserved</p>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-items">
+                <h5>about us</h5>
+                <a href=""><p>About Us</p></a>
+                <a href=""><p>Order Tracking</p></a>
+                <a href=""><p>Contact Us</p></a>
+                <a href=""><p>Store Location</p></a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-items">
+                <h5>help link</h5>
+                <a href=""><p>Returns</p></a>
+                <a href=""><p>Support Policy</p></a>
+                <a href=""><p>Side Guide</p></a>
+                <a href=""><p>FAQS</p></a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-items">
+                <h5>follow us</h5>
+                <a href=""><p>Facebook</p></a>
+                <a href=""><p>Twitter</p></a>
+                <a href=""><p>Instagram</p></a>
+                <a href=""><p>Youtube</p></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-items">
+                <h5>newsletter</h5>
+                <p>Get E-mail updates about our latest shop and special offers.</p>
+                <input type="email" placeholder="Your email address"> 
+                <a href=""><p>SUBCRIBE</p></a>
+              </div>
+            </div>           
+          </div>
+        </div>
+        <button class="scroll-top">
+          <i class="fas fa-angle-double-up"></i>
+        </button>
+      </footer>
+
+</body>
+</html>

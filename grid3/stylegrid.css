@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-auto-rows: 50px;
+    gap: 10px;
+    background-color: blanchedalmond;
+    height: 600px;
+    width: 600px;
+    margin:20px auto ;
+    /* align-content: center;
+    justify-content: center; */
+    /* place-content is shortcut for both*/
+    place-content: center;
+}
+
+.box {
+    color: aliceblue;
+    background-color: rgb(211, 128, 28);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}               
+
+/* these are grid items. need to style each item */
+.header {
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+.content {
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
+
+.sidebar2 {
+    grid-column: 4;
+    grid-row: 2/5;
+}
+
+.footer {
+    grid-column: 1/5;
+    grid-row: 5;
+}

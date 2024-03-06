@@ -1,0 +1,49 @@
+.container {
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(219, 170, 238);
+}
+
+.title{
+    font-family: serif;
+    font-size: 40px;
+    color: rgba(4, 85, 58, 0.685);
+}
+
+.limon{
+    cursor: pointer;
+    color: rgb(226, 131, 43);
+    background-color: rgb(53, 78, 4);
+    border: 1px solid rgb(21, 148, 233);
+    font-size: 14px;
+}
+
+.para{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 2em;
+    border: 1px solid black;
+}
+
+.second-para{
+    font-size: 1.5rem;
+    line-height: 40px;
+    
+}
+
+.btn{
+    padding: 5px 10px;
+    color: aliceblue;
+    background-color: cadetblue;
+    font-size: 15px;
+}
+
+.first-button{
+    color: black;
+    background-color: rgb(35, 142, 235);
+}
+
+.size{
+    font-size: 15px;
+}

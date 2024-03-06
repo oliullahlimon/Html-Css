@@ -1,0 +1,60 @@
+.single-banner {
+    border: 4px solid #fff;
+    position: relative;
+    overflow: hidden;
+    
+    img {
+        width: 100%;
+        transition: all .5s ease;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 40px;
+        left: 36px;
+
+        h3 {
+            margin: 0;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 48px;
+            color: #617D05;
+        }
+    
+        h4 {
+            margin: 3px 0 70px 0;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 600;
+    
+           
+        }
+    
+        span {
+            font-size: 21px;
+            color: #617D05;
+            margin-left: 3px;
+            position: relative;
+            top: 2px;
+        }
+    
+        a {
+            display: flex;
+            font-size: 12px;
+            width: 28px;
+            height: 28px;
+            border: 2px solid #617D05;
+            border-radius: 50%;
+            color: #617D05;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+    }
+    
+    &:hover img {
+        transform: scale(1.2);
+    }
+}

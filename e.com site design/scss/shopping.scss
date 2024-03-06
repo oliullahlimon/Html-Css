@@ -1,0 +1,84 @@
+.shopping-section {
+    padding: 60px 0;
+
+    .sidebar-style {
+        .sidebar-widget {
+            padding-bottom: 50px;
+
+            h4 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            h5 {
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+            
+            .sidebar-form {
+                position: relative;
+
+                input {
+                    width: 100%;
+                    font-size: 14px;
+                    padding: 8px 4px;
+                    border: 1px solid #efefef;
+                    outline: none;
+                    background-color: #fff;
+                }
+
+                button {
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    padding: 0 15px;
+                    transform: translateY(-50%);
+                    border: none;
+                    border-left: 1px solid #efefef;
+                    background-color: transparent;
+                }
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                li {
+                    display: flex;
+                    margin-bottom: 20px;
+                    cursor: pointer;
+
+                    .checkbox {
+                        width: 14px;
+                        height: 14px;
+                        border: 1px solid #000;
+                        border-radius: 2px;
+                    }
+
+                    .items {
+                        line-height: 1;
+                        margin-left: 20px;
+                        text-transform: capitalize;
+                    }
+
+                    &:hover .checkbox {
+                        background-color: rgb(121, 150, 16);
+                        border-color:rgb(121, 150, 16);
+                    }
+                }
+            }
+
+            .tags {
+
+                li {
+                    display: inline-block;
+                    padding: 5px 10px;
+                    background-color: #ddd;
+                    border-radius: 10px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}

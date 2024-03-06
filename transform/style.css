@@ -1,0 +1,16 @@
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid blueviolet;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+.box:hover {
+    transform: translate(100px, 100px) scale(1.5) rotate(45deg);
+}

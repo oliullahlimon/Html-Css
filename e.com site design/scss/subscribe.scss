@@ -1,0 +1,46 @@
+.subscribe-wrapper {
+    padding: 30px 0;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: #696969 ;
+    }
+
+    .form {
+        position: relative;
+
+        input {
+            width: 100%;
+            font-size: 14px;
+            padding:10px 5px;
+            border: none;
+            border-bottom: 2px solid #e2e2e2;
+            background-color: transparent;
+           
+        }
+
+       .submit {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+            button {
+                border: none;
+                background-color: transparent;
+                height: 43px;
+
+                i {
+                    color: #cacaca;
+                    font-size: 25px;
+                }
+                
+            }
+        }
+    }
+}

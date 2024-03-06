@@ -1,0 +1,74 @@
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid blueviolet;
+    padding: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: box-animation;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes box-animation {
+    from {
+        background-color: red;
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: box-animation2;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+@keyframes box-animation2 {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: palevioletred;
+        left: 0px;
+        top: 0px;
+    }
+}

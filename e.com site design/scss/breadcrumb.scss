@@ -1,0 +1,17 @@
+.breadcrumb-section {
+    background-color: #fff;
+    padding: 40px 0;
+
+    span {
+        margin-right: 5px;
+
+        a {
+            text-decoration: none;
+            color: #5b5858;
+
+            &:hover {
+                color: rgb(121, 150, 16);
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+// Bootstrap theme changes
+
+// import bootstrap sass files
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import './nav/navbar.scss';
+@import './footer/footer.scss';
+@import './hero/hero.scss';
+@import './carousel/carousel.scss';
+@import './cta/cta.scss';
+@import './specification/specification.scss';
+@import './pricing/pricing.scss';
+@import './contact/contact.scss';
+@import './download/download.scss';
+
+// custom codes
+
+
+.extra-margin {
+    margin-top: 66px;
+}
+
+// to run sass in npm and live watching for changes: type in terminal npm run dev

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import './nav.scss';
+@import './secondary.scss';
+@import './carousel.scss';
+@import './cards.scss';
+@import './product.scss';
+@import './support.scss';
+@import './subscribe.scss';
+@import './footer.scss';
+@import './breadcrumb.scss';
+@import './shopping.scss';
+
+
+body {
+    background-color: #f6f6f6;
+}

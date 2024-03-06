@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    min-height: 300px;
+    margin: 2rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.heading {
+    width: 100%;
+    background-color: rgba(32, 31, 31, 0.877);
+    padding: 14px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    padding: 1rem 2rem;
+}
+
+.inline-form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-group > input[type='text'], input[type='password'], 
+input[type='email'], input[type='tel'], select, textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.radio-group {
+    display: flex;
+}
+
+.radio-inline {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.bio > textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+}
+
+.reset {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid gray;
+    margin-right: 5px;
+}
+
+.submit {
+    color: black;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+
+[type=radio], [type=checkbox], [id=country], [id=city], .btn:hover {
+    cursor: pointer;
+}

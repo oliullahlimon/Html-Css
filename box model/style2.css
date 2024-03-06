@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    font-family: fantasy;
+    background: cadetblue;
+    width: 200px;
+    height: 150px;
+    margin: 100px auto;
+    outline: 3px dashed rgb(190, 106, 9);
+    border: 20px solid rgb(90, 145, 8);
+    padding: 10px;
+}

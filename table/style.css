@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.table {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.table, .table th, .table td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 1rem;
+}
+
+.table thead {
+    background-color: azure;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.table tbody tr:hover {
+    background-color: rgb(247, 244, 205);
+}
+
+.table thead:hover {
+    background-color: palegoldenrod;
+}

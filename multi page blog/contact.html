@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Blog</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+    <body>
+        <!--Top Navbar-->
+        <nav>
+            <div class="container nav-container">
+                <div class="brand-logo">
+                    <a href="home.html">
+                        <img src="images/logo.svg" alt="brand-logo" />
+                    </a>
+                </div>
+                <div class="nav-items">
+                    <div>
+                        <a href="home.html">Home</a>
+                    </div>
+                    <div>
+                        <a href="about.html">About</a>
+                    </div>
+                    <div>
+                        <a href="blog.html">Blog</a>
+                    </div>
+                    <div class="active">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="home.html"><button class="btn">Button</button></a>
+                </div>
+            </div>
+        </nav>
+
+        <!--Main Content Area-->
+        <main class="container">
+            <div class="form">
+                <div class="contact">
+                    <h1>Contact Us</h1>
+                </div>
+                <form>
+                    <div class="inline-group">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input 
+                             type="text"
+                             id="first-name"
+                             placeholder="Enter Your First Name"
+                             >
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input 
+                             type="text"
+                             id="last-name"
+                             placeholder="Enter Your last Name"
+                             >
+                        </div>
+                    </div>
+                    <div class="inline-group">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input 
+                             type="email"
+                             id="email"
+                             placeholder="Enter Your Email Address"
+                             >
+                        </div>
+                        <div class="form-group">
+                            <label for="tel">Phone Number</label>
+                            <input 
+                             type="tel"
+                             id="tel"
+                             placeholder="Enter Your Phone Number"
+                             >
+                        </div>
+                    </div>
+                    <div class="inline-group">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input
+                             type="password"
+                             id="password"
+                             placeholder="Password"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input
+                             type="password"
+                             id="confirm-password"
+                             placeholder="Password"
+                            />
+                        </div>
+                    </div>
+                    <div class="inline-group">
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                             <select id="country">
+                                <option>Bangladesh</option>
+                                <option>India</option>
+                                <option>Pakistan</option>
+                                <option>Sri lanka</option>
+                             </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <select id="city">
+                                <option>Dhaka</option>
+                                <option>Mumbai</option>
+                                <option>Lahore</option>
+                                <option>Colombo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <div class="radio-group">
+                            <div class="radio-inline">
+                                <input
+                                 type="radio"
+                                 id="male"
+                                 name="gender"
+                                 >
+                                 <label for="male">Male</label>
+                            </div>
+                            <div class="radio-inline">
+                                <input
+                                 type="radio"
+                                 id="female"
+                                 name="gender"
+                                 >
+                                 <label for="female">Female</label>
+                            </div>
+                            <div class="radio-inline">
+                                <input
+                                 type="radio"
+                                 id="other"
+                                 name="gender"
+                                 >
+                                 <label for="other">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group bio" >
+                        <label for="subject">What is Your Subject</label>
+                        <textarea id="subject"></textarea>
+                    </div>
+                    <div class="form-group bio">
+                        <label for="bio">Short Bio</label>
+                        <textarea id="bio"></textarea>
+                    </div>
+                    <div class="radio-inline checkbox">
+                        <input 
+                         type="checkbox"
+                         id="aggrement"
+                        />
+                        <label for="aggrement">I accept terms and conditions</label>
+                    </div>
+                    <div>
+                        <button class="btn2 reset" type="reset">
+                            Reset
+                        </button>
+                        <button class="btn2 submit" type="submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>      
+        </main>
+        <hr>
+        <!--Main Footer-->
+        <footer class="container">
+            <div class="icons">
+                <a href="#">
+                    <img src="images/github.png" alt="github">
+                    <img src="images/twitter.png" alt="twitter">
+                </a>
+            </div>
+            <p class="para">Iceberg Gatsby is a PWA, save it for offline reading. <a href="#">See more PWA here</a>.</p>
+            <p class="para">Maintained by <a href="#">@_diogorodrigues</a>. You can always contribute with the project on <a href="#">Github</a>.</p>
+        </footer>
+    </body>
+</html>

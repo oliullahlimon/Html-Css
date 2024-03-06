@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272727;
+  color: #efefef;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.main .main__para1, .main .main__para2 {
+  font-weight: 400;
+}
+.main .main__para1:hover, .main .main__para2:hover {
+  color: #ff652f;
+}
+
+/*# sourceMappingURL=style.css.map */

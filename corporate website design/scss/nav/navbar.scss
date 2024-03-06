@@ -1,0 +1,19 @@
+.navbar {
+
+    .download {
+        padding: 0.5rem;
+        background-image: linear-gradient(90deg, #8b62ff 0, #3b1bff);
+        border: none;
+    }
+
+    .brand-image {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-link:hover {
+        background-color: #ddd;
+        color: black;
+        border-radius: 5px;
+    }
+}

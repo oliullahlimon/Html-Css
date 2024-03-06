@@ -1,0 +1,22 @@
+.specification-section {
+    padding: 60px 0;
+
+    .specs {
+        list-style: none;
+    }
+
+    .specs li {
+        position: relative;
+        margin-bottom: 1.8rem;
+    }
+
+    .specs li:before {
+        font-family: 'Font Awesome 5 Free';
+        content: '\f058';
+        font-size: 1.5rem;
+        font-weight: 600; /* must use font weight from: 600 to get the icon */ 
+        position: absolute;
+        left: -35px;
+        color: #8b62ff;
+    }
+}
